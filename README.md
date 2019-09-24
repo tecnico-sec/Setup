@@ -34,6 +34,8 @@ If you have problems with the Guest Additions (screen resolution, unable to copy
 
 ## 2. Using `rnl-virt` in RNL (labs in Alameda)
 
+For the first labs you just need to run the script `rnl-seed19`. This scripts automates the process of creation of a machine connected through NAT. For labs 5 and 6 this has to be done manually. Information about the process will be posted before those labs.
+
 **Acknowledgments**
 
 Original version: Pedro Adão
