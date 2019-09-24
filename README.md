@@ -36,6 +36,13 @@ If you have problems with the Guest Additions (screen resolution, unable to copy
 
 For the first labs you just need to run the script `rnl-seed19`. This scripts automates the process of creation of a machine connected through NAT. For labs 5 and 6 this has to be done manually. Information about the process will be posted before those labs.
 
+## Labs 2 and 3
+
+1. Run `rnl-seed19`. VM `user:pass/seed:dees`
+2. Recommended: Change the user password.
+3. Recommended: Update the system. `sudo apt update; sudo apt upgrade`
+4. Optional: Change keymap to PT. `setxkbmap pt`
+
 **Acknowledgments**
 
 Original version: Pedro Adão
