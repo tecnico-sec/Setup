@@ -4,25 +4,25 @@ Instituto Superior Técnico, Universidade de Lisboa
 
 # Setup of Lab Environment
 
-Most of the material available for our Network and Computer Security labs is part of the [SEED Labs Project](https://seedsecuritylabs.org/). Have a look at their project as you have many more labs proposed beyond the ones we'll follow here.
+Most of the material available for our Network and Computer Security labs is part of the [SEED Labs Project](https://seedsecuritylabs.org/).
+Have a look at their project as you have many more labs proposed beyond the ones we will follow here.
 
-All labs should be executed in the virtual machine (VM) provided by the SEED Labs project: [SEEDUbuntu16.04](https://seedsecuritylabs.org/lab_env.html).
+All labs should be executed in the virtual machine (VM) provided by the SEED Labs project: [SEEDUbuntu 20.04](https://seedsecuritylabs.org/labsetup.html).
 
 In this document we will provide two ways of running this VM:  
-(a) Locally on your machine, or  
+(a) Locally on your machine using VirtualBox, or  
 (b) using the virtualization system provided by RNL (labs in Alameda).  
 
 We strongly suggest the former.
 
 ## 1. Install SEED Locally on your machine
 
-1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/lab_env.html). We suggest the one built in June 2019.
+1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/labsetup.html).
+We suggest the one built in 2021.
 2. Unzip the file.
-    + Files will be included in folder `SEEDUbuntu-16.04-32bit`.
-3. Follow the [instructions](https://seedsecuritylabs.org/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf).
-    + _Step2_: You can give whatever name you want to your machine (and a folder with that name will be created)
-    + _Step4_: To keep your disk organized, you may move the files from the folder created in 2.1 to the folder that was just created prior to performing Step4.
-    + _Step5_: It is important that you select `Graphics Controller: VBoxVGA` otherwise you might have a small resolution.
+    + Files will be included in folder `SEED-Ubuntu20.04`.
+3. Follow the [instructions](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md).
+    + _Step 2_: You can give whatever name you want to your machine (and a folder with that name will be created)
 4. Start the VM. `user:pass/seed:dees`,
 5. Recommended: Change the user password.
 6. Recommended: Update the system. `sudo apt update; sudo apt upgrade`
@@ -34,17 +34,16 @@ If you have problems with the Guest Additions (screen resolution, unable to copy
 
 ## 2. Using `rnl-virt` in RNL (labs in Alameda)
 
-For the first labs you just need to run the script `rnl-seed19`. This scripts automates the process of creation of a machine connected through NAT. For labs 5 and 6 this has to be done manually. Information about the process will be posted before those labs.
+For the first labs you just need to run the script `rnl-seed21`.
+This scripts automates the process of creation of a machine connected through NAT.
+For some labs this has to be done manually.
+Information about the process will be posted before those labs.
 
-## Labs 2 and 3
-
-1. Run `rnl-seed19`. VM `user:pass/seed:dees`
-2. Recommended: Change the user password.
-3. Recommended: Update the system. `sudo apt update; sudo apt upgrade`
-4. Optional: Change keymap to PT. `setxkbmap pt`
+----
 
 **Acknowledgments**
 
+Wenliang Du, Syracuse University  
 Original version: Pedro Adão
 
 ----
