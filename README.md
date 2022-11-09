@@ -17,7 +17,7 @@ We strongly suggest the former.
 
 ## 1. Install SEED Locally on your machine
 
-1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/labsetup.html).
+1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/labsetup.html).  
 We suggest the one built in 2021 with the SHA1 hash value of `79d8af332b7bfaa46541644d34bab0b1a4f4239e`.
 2. Unzip the file.
     + Files will be included in folder `SEED-Ubuntu20.04`.    
@@ -38,13 +38,6 @@ For the first labs you just need to run the script `rnl-seed21`.
 This scripts automates the process of creation of a machine connected through NAT.
 For some labs this has to be done manually.
 Information about the process will be posted before those labs.
-
-----
-
-**Acknowledgments**
-
-Wenliang Du, Syracuse University  
-Original version: Pedro Adão
 
 ----
 
