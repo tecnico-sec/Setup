@@ -18,9 +18,9 @@ We strongly suggest the former.
 ## 1. Install SEED Locally on your machine
 
 1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/labsetup.html).
-We suggest the one built in 2021.
+We suggest the one built in 2021 with the SHA1 hash value of `79d8af332b7bfaa46541644d34bab0b1a4f4239e`.
 2. Unzip the file.
-    + Files will be included in folder `SEED-Ubuntu20.04`.
+    + Files will be included in folder `SEED-Ubuntu20.04`.    
 3. Follow the [instructions](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md).
     + _Step 2_: You can give whatever name you want to your machine (and a folder with that name will be created)
 4. Start the VM. `user:pass/seed:dees`,
