@@ -23,7 +23,7 @@ We suggest the one built in 2021 with the SHA1 hash value of `79d8af332b7bfaa465
     + Files will be included in folder `SEED-Ubuntu20.04`.    
 3. Follow the [instructions](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md).
     + _Step 2_: You can give whatever name you want to your machine (and a folder with that name will be created)
-4. Start the VM. `user:pass/seed:dees`,
+4. Start the VM. `user:seed/pass:dees`,
 5. Recommended: Change the user password.
 6. Recommended: Update the system. `sudo apt update; sudo apt upgrade`
 7. Optional: Change keymap to PT. `setxkbmap pt`
