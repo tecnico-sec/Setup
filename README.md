@@ -4,29 +4,26 @@ Instituto Superior Técnico, Universidade de Lisboa
 
 # Setup of Lab Environment
 
-Most of the material available for our Network and Computer Security labs is part of the [SEED Labs Project](https://seedsecuritylabs.org/).
-Have a look at their project as you have many more labs proposed beyond the ones we will follow here.
+All labs should be executed in the virtual machine (VM) of the Kali Linux project: [Kali](https://www.kali.org). 
 
-All labs should be executed in the virtual machine (VM) provided by the SEED Labs project: [SEEDUbuntu 20.04](https://seedsecuritylabs.org/labsetup.html).
+In this document we will provide three ways of running this VM:  
+* (a) Locally on your machine using VirtualBox (Recommended for x86 machines)
+* (b) Locally on your machine using VMWare Fusion (Recommended for Apple Silicon machines (M1/M2/M3))
+* (c) using the virtualization system provided by RNL (labs in Alameda).  
 
-In this document we will provide two ways of running this VM:  
-(a) Locally on your machine using VirtualBox, or  
-(b) using the virtualization system provided by RNL (labs in Alameda).  
+We strongly suggest running Kali linux locally.
 
-We strongly suggest the former.
+## 1. Install Kali Linux Virtual Machine Locally on your machine with Virtual Box
+1. Download Virtual Box (if you don't have it installed) at [Virtual Box](https://www.virtualbox.org) official website;
+2. Install VirtualBox
+3. Install Kali Linux in a new Virtual Machine following the [Virtual Box tutorial](instructions/virtualbox.pdf).
 
-## 1. Install SEED Locally on your machine
+## 2. Install Kali Linux Virtual Machine Locally on your machine with VMWare
 
-1. Download the Pre-built Virtual Machine Images (Ubuntu) from [SEED Labs Project](https://seedsecuritylabs.org/labsetup.html).  
-We suggest the one built in 2021 with the SHA1 hash value of `79d8af332b7bfaa46541644d34bab0b1a4f4239e`.
-2. Unzip the file.
-    + Files will be included in folder `SEED-Ubuntu20.04`.    
-3. Follow the [instructions](https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md).
-    + _Step 2_: You can give whatever name you want to your machine (and a folder with that name will be created)
-4. Start the VM. `user:pass/seed:dees`,
-5. Recommended: Change the user password.
-6. Recommended: Update the system. `sudo apt update; sudo apt upgrade`
-7. Optional: Change keymap to PT. `setxkbmap pt`
+1. Create an account (if you don't have one yet) at [VMWare](https://customerconnect.vmware.com/evalcenter?p=fusion-player-personal-13);
+2. Download VMWare Fusion (the free version);
+3. Install VMWare;
+4. Install Kali Linux in a new Virtual Machine following the [VMWare tutorial](instructions/vmware.md).
 
 ## Troubleshooting
 
