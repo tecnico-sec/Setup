@@ -159,6 +159,8 @@ As the installer prepares your Kali Linux instance, you’ll have to wait for a 
     
 2. After a while, you should be presented with a login screen, in which you should use the details you previously configured. In the case of this guide, username “kali” and password “kali”.
 3. Now, you can either power-off your VM (via the power menu within Kali), or simply click the cross to exit the VM’s window, which will suspend it. You can resume it anytime later on by right-clicking it and selecting “Resume” on the virtual-machine library.
+
+    ![Untitled](images/25.png)
     
 ## Troubleshooting
 
