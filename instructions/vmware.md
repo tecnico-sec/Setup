@@ -19,40 +19,11 @@ Follow these steps to obtain a copy of VMWare Fusion 13:
 ### 2. Setting up a VM for the lab classes
 
 There are two ways to go about this.
-You can either download a pre-built VMWare image, which features a pre-configured instance of Kali Linux 2023.3 (section 2.1), or you can download a Kali Linux installer and configure the VM from scratch (section 2.2).
+You can either download a Kali Linux installer and configure the VM from scratch (section 2.1), or you can download a pre-built VMWare image, which features a pre-configured instance of Kali Linux 2023.3 (section 2.2).
 
-Using the pre-built VMs is easier, though you can always resort to installing Kali Linux on the VM from scratch if you run into any issues, which is not difficult to do either, it just takes slightly longer.
+Despite it being easier to use the pre-built VMs, we recommend that you use the installation media, as it will allow you to learn more about the process of installing VMs and become acquainted with the VM environment, which is a valuable skill to have in the future.
 
-### 2.1. Creating a VM using the pre-built image
-
-This section is largely similar for users of Intel-based and Apple Silicon MacBooks, with the only difference being the VMWare image to use.
-
-<!-- TODO: INSERT VM IMAGE LINK -->
-- For Apple Silicon MacBooks, you can use an image we have made available here.
-- For Intel-based MacBooks, you can use Kali’s own pre-built VMWare image, available [here](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-vmware-amd64.7z).
-
-Once you have downloaded your image, you should extract the compressed file to find a `.vmwarevm` file, which you should place at *<username>/Virtual Machines*.
-This folder will exist only if you have opened VMWare Fusion at least once.
-If you have trouble finding it, a good reference point is that it is a sibling folder of others such as *************Applications*************, *********Documents********* and *********Downloads*********.
-
-After doing this, click the VMWare Fusion icon on the menu bar and click “Virtual Machine Library” to open the main VMWare Fusion window.
-Use the “Scan” option, as detailed below.
-
-![Untitled](images/0.png)
-
-This should cause a new VM to show up on the list.
-Right-click it and hit “Start Up”.
-Some popups may appear now, and you should respond as follows:
-
-- If you see a popup saying “This virtual machine appears to be in use”, click the “Take Ownership” button;
-- When you see a popup saying “This virtual machine might have been moved or copied”, click the “I Copied It” option.
-
-At this point, your VM should be ready to use, and you can log-in with the following credentials:
-
-- Username: `kali`
-- Password: `kali`
-
-### 2.2. Creating a VM using the installation media
+### 2.1. Creating a VM using the installation media
 
 This section is largely similar for users of Intel-based and Apple Silicon MacBooks, with the only difference being the OS installer to use:
 
@@ -173,7 +144,35 @@ In the case of this guide, username “kali” and password “kali”.
 You can resume it anytime later on by right-clicking it and selecting “Resume” on the virtual-machine library.
 
     ![Untitled](images/25.png)
-    
+
+### 2.2. Creating a VM using the pre-built image
+
+This section is also largely similar for users of Intel-based and Apple Silicon MacBooks, with the only difference being the VMWare image to use.
+
+- For Apple Silicon MacBooks, you can use an image we have made available [here](https://drive.google.com/file/d/1qnLF5P1cCqGZosv8zwT40ijJ7OIg1_oe/view?usp=sharing).
+- For Intel-based MacBooks, you can use Kali’s own pre-built VMWare image, available [here](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-vmware-amd64.7z).
+
+Once you have downloaded your image, you should extract the compressed file to find a `.vmwarevm` file, which you should place at *<username>/Virtual Machines*.
+This folder will exist only if you have opened VMWare Fusion at least once.
+If you have trouble finding it, a good reference point is that it is a sibling folder of others such as *************Applications*************, *********Documents********* and *********Downloads*********.
+
+After doing this, click the VMWare Fusion icon on the menu bar and click “Virtual Machine Library” to open the main VMWare Fusion window.
+Use the “Scan” option, as detailed below.
+
+![Untitled](images/0.png)
+
+This should cause a new VM to show up on the list.
+Right-click it and hit “Start Up”.
+Some popups may appear now, and you should respond as follows:
+
+- If you see a popup saying “This virtual machine appears to be in use”, click the “Take Ownership” button;
+- When you see a popup saying “This virtual machine might have been moved or copied”, click the “I Copied It” option.
+
+At this point, your VM should be ready to use, and you can log-in with the following credentials:
+
+- Username: `kali`
+- Password: `kali`
+
 ## Troubleshooting
 
 If you have any issues with this guide, due to the granularity myriad of possible issues, we urge you to search online for people with similar issues, as it is likely that you will find a solution to your problem.
