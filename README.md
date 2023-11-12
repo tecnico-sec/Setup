@@ -18,6 +18,10 @@ We strongly suggest running Kali linux locally.
 2. Install VirtualBox
 3. Install Kali Linux in a new Virtual Machine following the [Virtual Box tutorial](instructions/virtualbox.pdf).
 
+### Troubleshooting
+
+If you have problems with the Guest Additions (screen resolution, unable to copy host to guest, etc) you might want to have a look in [here](http://www.virtualbox.org/manual/ch04.html#idp11569008).
+
 ## 2. Install Kali Linux Virtual Machine Locally on your machine with VMWare
 
 1. Create an account (if you don't have one yet) at [VMWare](https://customerconnect.vmware.com/evalcenter?p=fusion-player-personal-13);
@@ -25,11 +29,12 @@ We strongly suggest running Kali linux locally.
 3. Install VMWare;
 4. Install Kali Linux in a new Virtual Machine following the [VMWare tutorial](instructions/vmware.md).
 
-## Troubleshooting
 
-If you have problems with the Guest Additions (screen resolution, unable to copy host to guest, etc) you might want to have a look in [here](http://www.virtualbox.org/manual/ch04.html#idp11569008).
+### Troubleshooting
 
-## 2. Using `rnl-virt` in RNL (labs in Alameda)
+If you have problems with the Guest Additions (screen resolution, unable to copy host to guest, etc) you might want to have a look in [here](https://kb.vmware.com/s/article/1018414).
+
+## 3. Using `rnl-virt` in RNL (labs in Alameda)
 
 For the first labs you just need to run the script `rnl-seed21`.
 This scripts automates the process of creation of a machine connected through NAT.
