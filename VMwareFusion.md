@@ -12,7 +12,7 @@ Recently, VMWare Fusion has been replaced with VMWare Fusion **Pro** as the free
 VMware allows anyone to obtain a personal-use license of VMware Fusion, which is some of the most capable virtualization software currently available for macOS, with the added benefit of supporting Apple Silicon devices.
 Follow these steps to obtain a copy of VMware Fusion:
 
-- Visit [this page](https://profile.broadcom.com/web/registration) to create a free VMware account;
+- Visit [this page](https://profile.broadcom.com/web/registration) to create a free Broadcom account;
 - Complete your registration and login with your newly created account;
 - After logging in (skip the "Build your profile" part), visit [this page](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion);
 - Select VMware Fusion **Pro** and then choose either version 13.6 or 13.5.2 (the same package works for both Intel and Apple Silicon MacBooks);
