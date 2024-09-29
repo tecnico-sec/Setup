@@ -4,6 +4,7 @@
 
 This guide will walk you through the process of installing VMware Fusion 13 and setting up a VM for the lab classes.
 This guide is intended for users of both Intel-based and Apple Silicon MacBooks, though there are some minor differences between the two, which will be noted when relevant.
+
 Recently, VMWare Fusion has been replaced with VMWare Fusion **Pro** as the freely available version for personal use (VMWare Workstation Pro too). You can choose either version 13.6 (latest as of writing) or 13.5.2.
 
 ### 1. Obtaining VMware Fusion
