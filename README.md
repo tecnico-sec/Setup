@@ -25,10 +25,12 @@ If you have problems with the Guest Additions (screen resolution, unable to copy
 
 ## 2. VMWare
 
-1. Create an account (if you do not have one yet) at [VMware](https://customerconnect.vmware.com/evalcenter?p=fusion-player-personal-13);
-2. Download VMware Fusion (the free version);
+1. Create an account (if you do not have one yet) at [Broadcom](https://profile.broadcom.com/web/registration);
+2. Download VMware Fusion Pro from [here](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion);
 3. Install VMware;
 4. Create a new Virtual Machine following the [Kali inside VMWare tutorial](VMwareFusion.md).
+
+Follow the [Kali inside VMWare tutorial](VMwareFusion.md) for more detailed instructions on obtaining VMWare.
 
 ### Troubleshooting
 
