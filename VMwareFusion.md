@@ -5,17 +5,21 @@
 This guide will walk you through the process of installing VMware Fusion 13 and setting up a VM for the lab classes.
 This guide is intended for users of both Intel-based and Apple Silicon MacBooks, though there are some minor differences between the two, which will be noted when relevant.
 
+Recently, VMWare Fusion has been replaced with VMWare Fusion **Pro** as the freely available version for personal use (VMWare Workstation Pro too). You can choose either version 13.6 (latest as of writing) or 13.5.2.
+
 ### 1. Obtaining VMware Fusion
 
 VMware allows anyone to obtain a personal-use license of VMware Fusion, which is some of the most capable virtualization software currently available for macOS, with the added benefit of supporting Apple Silicon devices.
 Follow these steps to obtain a copy of VMware Fusion:
 
-- Visit [this page](https://customerconnect.vmware.com/en/evalcenter?p=fusion-player-personal-13) and select “Create an Account” to create a free VMware account;
-- Complete your registration, and afterwards open the same link when logged in to reveal your license key (should be under the “License Information” section) and take note of it;
-- Under “Download Packages”, click “Manually Download” to obtain the binaries for VMware Fusion 13.5.0 (the same package works for both Intel and Apple Silicon MacBooks);
+- Visit [this page](https://profile.broadcom.com/web/registration) to create a free Broadcom account;
+- Complete your registration and login with your newly created account;
+- After logging in (skip the "Build your profile" part), visit [this page](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion);
+- Select VMware Fusion **Pro** and then choose either version 13.6 or 13.5.2 (the same package works for both Intel and Apple Silicon MacBooks);
 - Open the downloaded binary and follow the instructions.
 When prompted, make sure to allow “Accessibility” permissions for VMware Fusion;
 - Open VMware Fusion for the first time and accept any permission prompts required for usage.
+When prompted to insert a license or freely for personal use, choose the latter.
 
 ### 2. Setting up a VM for the lab classes
 
@@ -88,7 +92,7 @@ If you have trouble finding it, a good reference point is that it is a sibling f
 After doing this, click the VMware Fusion icon on the menu bar and click “Virtual Machine Library” to open the main VMware Fusion window.
 Use the “Scan” option, as detailed below.
 
-![Untitled](images/0.png)
+![Scan](images/vmware-01.png)
 
 This should cause a new VM to show up on the list.
 Right-click it and hit “Start Up”.
