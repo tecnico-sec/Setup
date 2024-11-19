@@ -31,8 +31,8 @@ Despite it being easier to use the pre-built VMs, we recommend that you use the 
 
 This section is largely similar for users of Intel-based and Apple Silicon MacBooks, with the only difference being the OS installer to use:
 
-- For Apple Silicon MacBooks, you should download the ARM64 installer, available [here](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-installer-arm64.iso);
-- For Intel-based MacBooks, you should download the AMD64 installer, available [here](https://cdimage.kali.org/kali-2023.3/kali-linux-2023.3-installer-amd64.iso).
+- For Apple Silicon MacBooks, you should download the ARM64 installer, available [here](http://old.kali.org/kali-images/kali-2023.3/kali-linux-2023.3-installer-arm64.iso);
+- For Intel-based MacBooks, you should download the AMD64 installer, available [here](http://old.kali.org/kali-images/kali-2023.3/kali-linux-2023.3-installer-amd64.iso).
 
 When your ISO file is ready, follow these instructions to configure your VM:
 
