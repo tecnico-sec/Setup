@@ -26,7 +26,7 @@ If you have problems with the Guest Additions (screen resolution, unable to copy
 ## 2. VMWare
 
 1. Create an account (if you do not have one yet) at [Broadcom](https://profile.broadcom.com/web/registration);
-2. Download VMware Fusion Pro from [here](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion);
+2. Download VMware Fusion Pro from [here](https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20Fusion&displayGroup=VMware%20Fusion%2026H1&release=26H1&os=&servicePk=543219&language=EN&freeDownloads=true);
 3. Install VMware;
 4. Create a new Virtual Machine following the [Kali inside VMWare tutorial](VMwareFusion.md).
 
