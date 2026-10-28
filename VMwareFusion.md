@@ -24,8 +24,8 @@ When prompted to insert a license or freely for personal use, choose the latter.
 ### 2. Setting up a VM for the lab classes
 
 There are two ways to go about this.
-You can either download a Kali Linux installer and configure the VM from scratch (section 2.1), or you can download a pre-built VMware image, which features a pre-configured instance of Kali Linux 2023.3 (section 2.2).
-Despite it being easier to use the pre-built VMs, we recommend that you use the installation media.
+You can either download a Kali Linux installer and configure the VM from scratch (section 2.1), or you can download a pre-built VMware image, which features a pre-configured instance of Kali Linux (section 2.2).
+Despite it being easier to use, we recommend that you use the installation media, as the pre-built WMware image will have a more outdated version of Kali Linux.
 
 ### 2.1. Creating a VM using the installation media
 
