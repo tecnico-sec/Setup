@@ -14,8 +14,8 @@ Follow these steps to obtain a copy of VMware Fusion:
 
 - Visit [this page](https://profile.broadcom.com/web/registration) to create a free Broadcom account;
 - Complete your registration and login with your newly created account;
-- After logging in (skip the "Build your profile" part), visit [this page](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion);
-- Select VMware Fusion **Pro** and then choose either version 13.6 or 13.5.2 (the same package works for both Intel and Apple Silicon MacBooks);
+- After logging in (skip the "Build your profile" part), visit [this page](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Fusion&freeDownloads=true);
+- Select VMware Fusion **Pro** and then choose version 13.6.5 (the same package works for both Intel and Apple Silicon MacBooks);
 - Open the downloaded binary and follow the instructions.
 When prompted, make sure to allow “Accessibility” permissions for VMware Fusion;
 - Open VMware Fusion for the first time and accept any permission prompts required for usage.
